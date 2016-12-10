@@ -10,7 +10,7 @@ Its a route optimiser for metro stations and subways which gives
 Documentation
 --------------
 
-**Link :** http://opruut.readthedocs.io/en/latest/
+**Link :** https://opruut.readthedocs.io/en/latest/
 
 
 Project Home Page
