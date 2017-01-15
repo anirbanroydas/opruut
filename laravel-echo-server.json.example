@@ -1,0 +1,22 @@
+{
+	"appKey": "YOUR_APP_KEY_GENERATED_BY_LARAVEL_ECHO_SERVER",
+	"authHost": "http://<LARAVEL_HOST>:<LARAVEL_PORT>",
+	"authEndpoint": "/broadcasting/auth",
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {
+			"password": "YOU_REDIS_PASSWORD_IF_APPLICABLE",
+			"db": <REDIS_DATABASE_NUMBER_TO_BE_USE>
+		},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": "<LARAVEL_ECHO_SERVER_HOST",
+	"port": "<LARAVEL_ECHO_SERVER_PORT",
+	"referrers": [],
+	"socketio": {},
+	"sslCertPath": "",
+	"sslKeyPath": ""
+}
