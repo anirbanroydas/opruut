@@ -8,12 +8,15 @@ public/assets
 public/build
 public/css 
 public/js 
+storage/framework 
+storage/logs 
 
 # Laravel 5 & Lumen specific
 bootstrap/cache/
 .env.*.php
 .env.php
 .env
+
 
 # laravel echo server config file
 laravel-echo-server.json
