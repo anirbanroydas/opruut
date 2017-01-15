@@ -8,8 +8,9 @@ public/assets
 public/build
 public/css 
 public/js 
-storage/framework 
-storage/logs 
+storage/framework/sessions
+storage/framework/views
+storage/logs/*.log
 
 # Laravel 5 & Lumen specific
 bootstrap/cache/
