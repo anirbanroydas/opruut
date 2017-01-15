@@ -1,0 +1,63 @@
+@import "../commons";
+
+// @import "~include-media/dist/include-media";
+
+// $breakpoints: (phone: 320px, tablet: 768px, desktop: 1024px, largescreen: 1280px);
+
+
+
+:global(.notifications) {
+
+	:global(.notification) {
+
+		.cocktail-notification-left-img {
+		    max-width: 32px;
+		}
+
+
+		.cocktail-notification-title {
+		    font-family:  'Open Sans';
+		    font-weight: 400;
+		    font-size: 12px;
+		    color: #333;
+
+			
+			.cocktail-notification-resource-link {
+			    text-decoration: none;
+			    font-family:  'Open Sans';
+			    font-weight: 600;
+			    font-size: 12px;
+			    color: #222;
+			}
+
+			
+			.cocktail-notification-resource-link:hover
+			{
+			    text-decoration: none;
+			}
+
+
+		}
+
+
+		:global(.notification-footer) {
+
+			.cocktail-notification-resource-link-time {
+			    font-family:  'Open Sans';
+			    font-weight: 400;
+			    font-size: 11px;
+			    color: #999;
+			}
+
+			.cocktail-notification-resource-link-time:hover
+			{
+			    text-decoration: none;
+			}
+
+		}
+
+	}
+
+}
+
+
