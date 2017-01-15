@@ -1,0 +1,57 @@
+.opruut-heart {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+        // color: #F9C5C5;
+        // cursor: pointer;
+    }
+
+    &.liked {
+        // color: #e17d74;
+    }
+}
+
+.opruut-heart-popover {
+    top: 23px;
+    left: -4px;
+    width: 200px;
+}
+
+// .opruut-heart-popover:before {
+//     top: -7px;
+//     left: 20px;
+//     border-width: 7px;
+//     border-bottom: 7px solid #e8e8e8;
+// }
+
+// .opruut-heart-popover:after {
+//     top: -6px;
+//     left: 20px;
+//     border-width: 7px;
+//     border-bottom: 10px solid #fff;
+// }
+
+
+.heart-count-container {
+    // display: block !important;
+    display: table;
+
+    p.heart-count{
+        // display: inline-block !important;
+        // vertical-align: middle !important;
+        // line-height: 48px !important;
+
+        display: table-cell;
+        vertical-align: middle;
+        margin-left: -6px !important;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        color: #333
+    }
+
+}
+
+
