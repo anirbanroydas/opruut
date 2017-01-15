@@ -4,6 +4,10 @@ node_modules/
 # Laravel 4 specific
 bootstrap/compiled.php
 app/storage/
+public/assets
+public/build
+public/css 
+public/js 
 
 # Laravel 5 & Lumen specific
 bootstrap/cache/
