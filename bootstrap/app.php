@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Create The Application
@@ -40,6 +41,16 @@ $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
     App\Exceptions\Handler::class
 );
+
+
+
+// configure the mongolog for custom output
+// $app->configureMonologUsing(function ($monolog) {
+//     $monolog->pushHandler(...);
+// });
+
+
+
 
 /*
 |--------------------------------------------------------------------------
