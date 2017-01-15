@@ -1,47 +1,19 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Be right back.</title>
+@extends('layouts.app')
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+@section('footer_content')
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+    @include('partials.php_vars_to_js_vars')
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                color: #B0BEC5;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato', sans-serif;
-            }
+@endsection
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
 
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
 
-            .title {
-                font-size: 72px;
-                margin-bottom: 40px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Be right back.</div>
-            </div>
+<!-- @section('content')
+<div class="container">
+    <div class="row">
+        <div class="content">
+            <div class="title">Be Right Back After A Short While!</div>
         </div>
-    </body>
-</html>
+    </div>
+</div>
+@endsection -->
