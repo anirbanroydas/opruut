@@ -1,0 +1,137 @@
+.login-container {
+    
+    margin-top: 100px;
+}
+
+
+
+
+.form-signin
+{
+    max-width: 330px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.login-container .form-signin-heading,
+.login-container .checkbox .rememberme
+{
+    margin-bottom: 15px;
+    /*font: 'Open Sans';*/
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 24px;
+    color: #333;
+}
+
+
+
+h2.form-signin-heading
+{
+    margin-bottom: 15px;
+    /*font: 'Open Sans';*/
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 28px;
+    color: #333;
+}
+
+
+
+
+.login-container .form-signin-heading {
+  margin-bottom: 15px;
+}
+
+.login-container .checkbox
+{
+    font-weight: 300;
+}
+.login-container .form-control
+{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+}
+.login-container .form-control:focus
+{
+    z-index: 2;
+}
+
+
+.login-container input[type='email']
+{
+    margin-bottom: -1px;
+
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.login-container input[type='password']
+{
+    margin-bottom: 10px;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+
+
+
+
+.has-error {
+
+    &.control-label {
+    
+        color: red;   
+    }
+
+    &.help-block {
+    
+        color: red;   
+    }
+
+    &.form-control {
+    
+        color: red;   
+    }
+
+
+    &.form-control-feedback {
+    
+        color: red;   
+    }
+
+}  
+
+
+
+.has-success {
+
+    &.control-label {
+    
+        color: green;   
+    }
+
+    &.help-block {
+    
+        color: green;   
+    }
+
+    &.form-control {
+    
+        color: green;   
+    }
+
+
+    &.form-control-feedback {
+    
+        color: regreend;   
+    }
+
+}  
+
