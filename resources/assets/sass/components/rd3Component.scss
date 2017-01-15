@@ -1,0 +1,62 @@
+
+
+.rd3-station {
+  fill: #2B8FF3;
+  stroke: #1D5FA2;
+  stroke-width: 2;
+}
+
+
+.rd3-station-name {
+	font-size: 11px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.rd3-svg-container-first {
+
+}
+
+
+
+.rd3-svg-container-others {
+	margin-left: -16px;
+}
+
+
+
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 12px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  left: 0px;
+  bottom: -11px;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
