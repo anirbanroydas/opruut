@@ -1,0 +1,162 @@
+.signup-container {
+    
+    margin-top: 100px;
+}
+
+
+
+
+
+.form-signup
+{
+    max-width: 330px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.form-signup-heading,
+.signup-container .checkbox .rememberme
+{
+
+    margin-bottom: 15px;
+    /*font: 'Open Sans';*/
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-signup-heading {
+  margin-bottom: 15px;
+}
+
+
+h2.form-signup-heading
+{
+    margin-bottom: 15px;
+    /*font: 'Open Sans';*/
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 28px;
+    color: #333;
+}
+
+.signup-container .checkbox
+{
+    font-weight: 300;
+}
+
+
+.signup-container .form-control
+{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+}
+
+.signup-container .form-control:focus
+{
+    z-index: 2;
+}
+
+.signup-container input[type='text']
+{
+    margin-bottom: -1px;
+
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+.signup-container input[type='email']
+{
+    margin-bottom: -1px;
+
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.signup-container input[type='password']
+{
+    margin-bottom: 10px;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.signup-container .tos-message {
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: 12px;
+   margin-top: 10px;
+   color: #999;
+}
+
+
+.signup-container .gender-group {
+    margin-left: 50px;
+}
+
+
+
+
+
+.has-error {
+
+    &.control-label {
+    
+        color: red;   
+    }
+
+    &.help-block {
+    
+        color: red;   
+    }
+
+    &.form-control {
+    
+        color: red;   
+    }
+
+
+    &.form-control-feedback {
+    
+        color: red;   
+    }
+
+}  
+
+
+
+.has-success {
+
+    &.control-label {
+    
+        color: green;   
+    }
+
+    &.help-block {
+    
+        color: green;   
+    }
+
+    &.form-control {
+    
+        color: green;   
+    }
+
+
+    &.form-control-feedback {
+    
+        color: regreend;   
+    }
+
+}
+
+
+
