@@ -59,8 +59,8 @@ return [
 
         'redis' => [
             'driver' => 'redis',
-            'connection' => 'default',
-            'queue' => 'default',
+            'connection' => 'queue',
+            'queue' => 'opruut_default',
             'retry_after' => 90,
         ],
 
@@ -79,7 +79,7 @@ return [
 
     'failed' => [
         'database' => env('DB_CONNECTION', 'mysql'),
-        'table' => 'failed_jobs',
+        'table' => 'failed__queued_jobs',
     ],
 
 ];
