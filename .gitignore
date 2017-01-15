@@ -15,6 +15,9 @@ bootstrap/cache/
 .env.php
 .env
 
+# laravel echo server config file
+laravel-echo-server.json
+
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
 
