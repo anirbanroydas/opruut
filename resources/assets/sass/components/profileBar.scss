@@ -1,0 +1,106 @@
+@import "../commons";
+
+// @import "~include-media/dist/include-media";
+
+// $breakpoints: (phone: 320px, tablet: 768px, desktop: 1024px, largescreen: 1280px);
+
+
+
+.home-page-avatar-thumb {
+    width: 180px;
+    max-width: 180px;
+    margin-top: 10px;
+    margin-left: -7.5px;
+}
+
+
+
+
+.home-page-profile-info-wrapper {
+    text-align: center;
+}
+
+
+.home-page-profile-avatar-wrapper {
+    text-align: center;
+}
+
+
+
+.home-page-profile-item-title {
+    font-family:  'Open Sans';
+    font-weight: 600;
+    font-size: 17px;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+
+.home-page-profile-item-name {
+    text-decoration: none;
+    font-family:  'Open Sans';
+    font-weight: 600;
+    font-size: 17px;
+    color: #333;
+}
+
+
+
+.home-page-profile-item-name:hover {
+    text-decoration: none;
+    color: #07C; 
+}
+
+
+
+
+.home-page-profile-item-subtitle {
+    font-family:  'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+
+
+
+.home-page-profile-item-username {
+   text-decoration: none;
+    font-family:  'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    color: #888;
+}
+
+
+
+
+
+.home-page-profile-item-username:hover
+{
+    text-decoration: none;
+    color: orange;
+}
+
+
+
+.home-page-profile-item-info {
+    margin-top: 3px;
+}
+
+
+
+
+.profile-welcome-item-followers {
+    font-family:  'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    color: #444;
+}
+
+
+
+
+
