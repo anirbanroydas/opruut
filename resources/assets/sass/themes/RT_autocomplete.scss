@@ -1,0 +1,70 @@
+@import "~react-toolbox/lib/colors";
+@import "~react-toolbox/lib/globals";
+@import "~react-toolbox/lib/mixins";
+@import "~react-toolbox/lib/autocomplete/config";
+@import "~react-toolbox/lib/input/config";
+
+$new-primary: rgb(0, 188, 212);
+
+.autocomplete {
+  &.focus {
+    label {
+      color: $new-primary !important;
+    }
+
+  }
+}
+
+
+
+
+
+.suggestions {
+	&:not(.up) {
+    margin-top: $input-padding - 3 !important;
+   }	
+}
+
+
+
+
+.suggestion {
+  &.active {
+    background-color: $new-primary !important;
+  }
+}
+
+
+.inputBar {
+	&:before, &:after {
+		// @include material-animation-default();
+		// width: 0 !important;
+	    background-color: $new-primary !important;
+	    // transition-property: width, background-color !important;
+	} 
+}
+
+
+
+
+// .bar {
+//   &:before, &:after {
+//     width: 0 !important;
+//     background-color: $new-primary !important;
+//     transition-property: width, background-color !important;
+//   }
+// }
+
+// .input {
+// 	.bar {
+// 		&:before, &:after {
+// 		    width: 0 !important;
+// 		    background-color: $new-primary !important;
+// 		    transition-property: width, background-color !important;
+// 		  }
+// 	}
+// }
+
+
+
+
