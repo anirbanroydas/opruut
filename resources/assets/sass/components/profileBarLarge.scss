@@ -1,0 +1,166 @@
+@import "../commons";
+
+@import "~include-media/dist/include-media";
+
+$breakpoints: (phone: 320px, tablet: 768px, desktop: 1024px, largescreen: 1280px);
+
+
+
+
+.jumbotron
+{
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #e8e8e8; 
+    border-radius: 0;
+    border-bottom:  1px solid #e8e8e8; 
+    // padding-top: 40px;
+    padding-bottom: 40px;
+
+	.btn
+	{
+	    font-size: 14px;
+	    padding: 10px 20px;
+	}
+
+	
+	.btn.post-btn {
+	    background: #41c197;
+	    color: #fff;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	    border: 0px;
+	}
+
+
+	.btn.post-btn:hover {
+	    background: #3aad87;
+	}
+
+
+	@include media(">=tablet") {
+		border-bottom:  1px solid #e8e8e8; 
+	}
+
+}
+
+
+
+
+
+.profile-welcome-item {
+    margin-top: 100px;
+}
+
+
+
+
+
+.profile-page-avatar-thumb {
+    width: 220px;
+	max-width: 220px;
+	/*margin-top: 105px;*/
+	margin-left: 0px;
+}
+
+
+
+.profile-page-avatar-wrapper {
+		text-align: center;
+
+}
+
+
+
+.profile-welcome-item-title {
+   	font-family:  'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+}
+
+
+
+
+.profile-welcome-item-name {
+    text-decoration: none;
+    font-family:  'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+}
+
+
+
+
+.profile-welcome-item-subtitle {
+    font-family:  'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #888;
+}
+
+
+
+
+.profile-welcome-item-username {
+   text-decoration: none;
+    font-family:  'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #888;
+    /*padding-left: 5px;*/
+}
+
+
+
+.profile-welcome-item-info {
+	margin-top: 16px;
+}
+
+
+.profile-welcome-item-followers {
+    font-family:  'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    color: #444;
+}
+
+
+.profile-welcome-item-follow {
+	margin-top: 7px;
+}
+
+
+
+
+.profile-welcome-item-btns {
+	margin-top: 40px;
+}
+
+
+
+.profile-welcome-item-bio {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+.profile-welcome-item-name:hover {
+	text-decoration: none;
+    color: #07C; 
+}
+
+
+
+
+.profile-welcome-item-username:hover
+{
+    text-decoration: none;
+    color: orange;
+}
+
+
