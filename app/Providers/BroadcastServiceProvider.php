@@ -16,11 +16,18 @@ class BroadcastServiceProvider extends ServiceProvider
     {
         Broadcast::routes();
 
+        
+
         /*
          * Authenticate the user's personal channel...
          */
-        Broadcast::channel('App.User.*', function ($user, $userId) {
-            return (int) $user->id === (int) $userId;
-        });
+        // Broadcast::channel('livestream.opruuts.*', function ($user, $userid) {
+        //     return (int) $user->id === (int) $userId;
+        // });
+
+
+        // Broadcast::channel('opruut.*', function ($user, $requestId) {
+        //     return (int) $user->id === (int) OpruutRequest::findOrNew($requestId)->user_id;;
+        // });
     }
 }
