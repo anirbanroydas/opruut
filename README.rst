@@ -46,12 +46,17 @@ It uses the `Laravel <https://www.laravel.com/>`_  framework to implement the ba
 Technical Specs
 ----------------
 
-
+:PHP: Primay Server Side Language
 :Laravel: Advanced Web Framework for PHP
+:JavaScript: Client Side Language
 :React: Front end javascript view library
 :Redux: Data store for React
 :Mysql: Database
 :Redis: Session Library, Cache Library, Job Queue
+:Neo4j: Graph Database
+:Websocket: For live stream
+:Socket.io: JavaScript Client for websockets
+:NodeJs: For weboskcet(socket.io) server (larvael-echo-server)
 
 
 
@@ -66,19 +71,5 @@ Features
 * Laravel/PHP
 
 
-
-
-Installation
-------------
-
-Prerequisites
-~~~~~~~~~~~~~
-
-1. python 2.7+
-2. tornado
-3. sockjs-tornado
-4. sockjs-client
-5. paho-mqtt
-6. mosquitto
 
 
