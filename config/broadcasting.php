@@ -42,7 +42,8 @@ return [
 
         'redis' => [
             'driver' => 'redis',
-            'connection' => 'default',
+            'connection' => 'broadcast',
+            'retry_after' => 90,
         ],
 
         'log' => [
