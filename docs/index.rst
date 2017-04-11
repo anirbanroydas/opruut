@@ -13,6 +13,12 @@ Its a route optimiser for metro stations and subways which gives
 **Home Page :** https://www.github.com/anirbanroydas/opruut
 
 
+Screencast of Demo
+-------------------
+
+https://www.useloom.com/share/fb490313ba1b45de9ba38095ab04ec94
+
+
 Details
 --------
 

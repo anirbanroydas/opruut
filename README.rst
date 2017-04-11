@@ -6,6 +6,11 @@ Its a route optimiser for metro stations and subways which gives
  b. maximum comfort [eg: less crowd, possibility of finding a seat, etc..]
 
 
+Screencast of Demo
+-------------------
+
+https://www.useloom.com/share/fb490313ba1b45de9ba38095ab04ec94
+
 
 Documentation
 --------------
