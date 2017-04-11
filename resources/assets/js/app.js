@@ -5,7 +5,7 @@ import 'react-toolbox/lib/commons.scss';
 // Import CSS files
 import '../css/bootstrap-dropmenu.css';
 import '../css/bootstrap-notifications.css';
-import '../css/auth.css';
+// import '../css/auth.css';
 
 
 
